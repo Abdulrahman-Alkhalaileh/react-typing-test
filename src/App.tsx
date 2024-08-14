@@ -1,13 +1,13 @@
-import React from 'react';
+import PagesWrapper from 'components/PagesWrapper';
+import TypingTest from 'pages/TypingTest';
 
 function App() {
   return (
-    <div className="text-3xl p-2 flex bg-pink justify-center gap-4 h-lvh items-center">
-      <p className='hover:animate-spin-slow md:text-blue lg:text-white xl:text-black'>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-    </div>
+    <body className='dark'>
+      <PagesWrapper>
+        <TypingTest />
+      </PagesWrapper>
+    </body>
   );
 }
 
